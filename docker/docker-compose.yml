@@ -24,7 +24,7 @@ services:
     container_name: adminer_wms
     restart: always
     ports:
-      - 8000:8000
+      - 8000:8080
     networks:
       - eam_apps
 # --------------------------------------------------------------------
